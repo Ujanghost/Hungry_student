@@ -55,7 +55,7 @@ ROOT_URLCONF = 'hungry_students.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR/'homepage/Templates','Templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
